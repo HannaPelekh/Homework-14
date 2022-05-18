@@ -1,0 +1,30 @@
+.title_container{    
+    display: flex;
+    flex-direction: row;    
+    height: 60px;
+    align-items: center ;
+    border-bottom: 3px solid rgb(66, 59, 68, 40%);
+}
+.item-title{
+    padding: 10px 40px 5px;
+    margin: 5px 20px 10px;    
+    transition: all ease-in-out 0.2s;    
+    cursor: pointer;    
+    
+}
+.item-title:hover{
+    transition: all ease-in-out 0.2s;
+    background-color: rgb(11 0 255 / 20%)
+}
+.active_title{
+    border-bottom: 2px solid rgb(66, 59, 68, 40%) ;   
+}
+.body_container{      
+    padding: 30px;    
+} 
+.item-body{
+    display: none;     
+}
+.active_body{
+    display: block;     
+}
